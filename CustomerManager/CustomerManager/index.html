@@ -9,7 +9,7 @@
     <link href="Content/styles.css" rel="stylesheet" />
 </head>
 <body data-ng-cloak>
-    
+
     <header class="navbar navbar-inner navbar-fixed-top" data-ng-controller="NavbarController as vm">
         <nav class="container">
             <div class="navbar-header">
@@ -27,8 +27,7 @@
             <div class="nav-container" data-collapse="vm.isCollapsed">
 
                 <!-- With menu-highlighter directive -->
-                <ul class="nav navbar-nav nav-pills navBarPadding"
-                    data-menu-highlighter data-highlight-class-name="active">
+                <ul class="nav navbar-nav nav-pills navBarPadding" data-menu-highlighter data-highlight-class-name="active">
                     <li><a href="#/customers">Customers</a></li>
                     <li><a href="#/orders">Orders</a></li>
                     <li><a href="#/about">About</a></li>
@@ -55,7 +54,7 @@
     <div class="slide-animation-container">
         <div data-ng-view id="ng-view" class="slide-animation"></div>
     </div>
-    
+
     <div id="footer">
         <div class="navbar navbar-fixed-bottom">
             <div class="navbar-inner footer">
@@ -91,10 +90,10 @@
 
     <script src="app/dist/0.bundle.js"></script>
     <script src="app/dist/bundle.js"></script>
-    
 
     <!-- Load custom scripts via RequireJS -->
     <!-- <script src="Scripts/require.js" data-main="Scripts/main"></script> -->
 
 </body>
+
 </html>

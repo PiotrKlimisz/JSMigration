@@ -1,7 +1,7 @@
-﻿// require.config({
-//     baseUrl: '../app',
-//     urlArgs: 'v=1.0'
-// });
+﻿require.config({
+    baseUrl: '../app',
+    urlArgs: 'v=1.0'
+});
 
 require([
   '../app/customersApp/animations/listAnimations.js',
